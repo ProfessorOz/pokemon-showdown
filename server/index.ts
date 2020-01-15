@@ -90,9 +90,13 @@ if (Config.watchconfig) {
 	});
 }
 
+/******************
+* Custom Globals *
+*****************/
+
 global.Server = {};
 
-import {Server} from '../server/chat-commands/server-utilities';
+import {Server} from './server-utilities';
 global.Server = Server;
 
 /*********************************************************
