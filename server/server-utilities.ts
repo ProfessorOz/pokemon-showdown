@@ -1,6 +1,6 @@
 "use strict";
 
-import { FS } from "../../lib/fs";
+import { FS } from "../lib/fs";
 const https = require("https");
 const Autolinker = require("autolinker");
 
